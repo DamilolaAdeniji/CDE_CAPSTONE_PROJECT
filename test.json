@@ -1,0 +1,78 @@
+{
+    'common': 'South Georgia', 
+'nativeName': {
+    'afr': None, 'amh': None, 'ara': None, 'arc': None, 'aym': None, 'aze': None, 
+'bar': None, 'bel': None, 'ben': None, 'ber': None, 
+'bis': None, 'bjz': None, 'bos': None, 'bul': None, 'bwg': None, 'cal': None, 
+'cat': None, 'ces': None, 'cha': None, 'ckb': None, 'cnr': None, 'crs': None, 'dan': None, 
+'deu': None, 'div': None, 'dzo': None, 'ell': None, 
+'eng': {
+    'common': 'South Georgia', 'official': 'South Georgia and the South Sandwich Islands'
+}, 
+'est': None, 'fao': None, 'fas': None, 'fij': None, 'fil': None, 'fin': None, 'fra': None, 'gil': None, 
+'gle': None, 'glv': None, 'grn': None, 'gsw': None, 'hat': None, 'heb': None, 'her': None, 'hgm': None, 
+'hif': None, 'hin': None, 'hmo': None, 'hrv': None, 'hun': None, 'hye': None, 'ind': None, 'isl': None, 
+'ita': None, 'jam': None, 'jpn': None, 'kal': None, 'kat': None, 'kaz': None, 'kck': None, 'khi': None, 
+'khm': None, 'kin': None, 'kir': None, 'kon': None, 'kor': None, 'kwn': None, 'lao': None, 'lat': None, 
+'lav': None, 'lin': None, 'lit': None, 'loz': None, 'ltz': None, 'lua': None, 'mah': None, 'mey': None, 
+'mfe': None, 'mkd': None, 'mlg': None, 'mlt': None, 'mon': None, 'mri': None, 'msa': None, 'mya': None, 
+'nau': None, 'nbl': None, 'ndc': None, 'nde': None, 'ndo': None, 'nep': None, 'nfr': None, 'niu': None, 
+'nld': None, 'nno': None, 'nob': None, 'nor': None, 'nrf': None, 'nso': None, 'nya': None, 'nzs': None, 
+'pap': None, 'pau': None, 'pih': None, 'pol': None, 'por': None, 'pov': None, 'prs': None, 'pus': None, 
+'que': None, 'rar': None, 'roh': None, 'ron': None, 'run': None, 'rus': None, 'sag': None, 'sin': None, 
+'slk': None, 'slv': None, 'smi': None, 'smo': None, 'sna': None, 'som': None, 'sot': None, 'spa': None, 
+'sqi': None, 'srp': None, 'ssw': None, 'swa': None, 'swe': None, 'tam': None, 'tet': None, 'tgk': None, 
+'tha': None, 'tir': None, 'tkl': None, 'toi': None, 'ton': None, 'tpi': None, 'tsn': None, 'tso': None, 
+'tuk': None, 'tur': None, 'tvl': None, 'ukr': None, 'urd': None, 'uzb': None, 'ven': None, 'vie': None, 
+'xho': None, 'zdj': None, 'zho': None, 'zib': None, 'zul': None
+    },
+'official': 'South Georgia and the South Sandwich Islands'
+}
+
+
+
+{
+    'AED': None, 'AFN': None, 'ALL': None, 'AMD': None, 'ANG': None, 'AOA': None, 'ARS': None, 'AUD': None, 'AWG': None, 
+'AZN': None, 'BAM': None, 'BBD': None, 'BDT': None, 'BGN': None, 'BHD': None, 'BIF': None, 'BMD': None, 'BND': None, 
+'BOB': None, 'BRL': None, 'BSD': None, 'BTN': None, 'BWP': None, 'BYN': None, 'BZD': None, 'CAD': None, 'CDF': None, 
+'CHF': None, 'CKD': None, 'CLP': None, 'CNY': None, 'COP': None, 'CRC': None, 'CUC': None, 'CUP': None, 'CVE': None, 
+'CZK': None, 'DJF': None, 'DKK': None, 'DOP': None, 'DZD': None, 'EGP': None, 'ERN': None, 'ETB': None, 'EUR': None, 
+'FJD': None, 'FKP': None, 'FOK': None, 'GBP': None, 'GEL': None, 'GGP': None, 'GHS': None, 'GIP': None, 'GMD': None, 
+'GNF': None, 'GTQ': None, 'GYD': None, 'HKD': None, 'HNL': None, 'HTG': None, 'HUF': None, 'IDR': None, 'ILS': None, 
+'IMP': None, 'INR': None, 'IQD': None, 'IRR': None, 'ISK': None, 'JEP': None, 'JMD': None, 'JOD': None, 'JPY': None, 
+'KES': None, 'KGS': None, 'KHR': None, 'KID': None, 'KMF': None, 'KPW': None, 'KRW': None, 'KWD': None, 'KYD': None, 
+'KZT': None, 'LAK': None, 'LBP': None, 'LKR': None, 'LRD': None, 'LSL': None, 'LYD': None, 'MAD': None, 'MDL': None, 
+'MGA': None, 'MKD': None, 'MMK': None, 'MNT': None, 'MOP': None, 'MRU': None, 'MUR': None, 'MVR': None, 'MWK': None, 
+'MXN': None, 'MYR': None, 'MZN': None, 'NAD': None, 'NGN': None, 'NIO': None, 'NOK': None, 'NPR': None, 'NZD': None, 
+'OMR': None, 'PAB': None, 'PEN': None, 'PGK': None, 'PHP': None, 'PKR': None, 'PLN': None, 'PYG': None, 'QAR': None, 
+'RON': None, 'RSD': None, 'RUB': None, 'RWF': None, 'SAR': None, 'SBD': None, 'SCR': None, 'SDG': None, 'SEK': None, 
+'SGD': None, 
+'SHP': {
+    'name': 'Saint Helena pound', 'symbol': '£'
+}, 
+'SLL': None, 'SOS': None, 'SRD': None, 'SSP': None, 
+'STN': None, 'SYP': None, 'SZL': None, 'THB': None, 'TJS': None, 'TMT': None, 'TND': None, 'TOP': None, 'TRY': None, 
+'TTD': None, 'TVD': None, 'TWD': None, 'TZS': None, 'UAH': None, 'UGX': None, 'USD': None, 'UYU': None, 'UZS': None, 
+'VES': None, 'VND': None, 'VUV': None, 'WST': None, 'XAF': None, 'XCD': None, 'XOF': None, 'XPF': None, 'YER': None, 
+'ZAR': None, 'ZMW': None, 'ZWL': None
+}
+
+
+{'afr': None, 'amh': None, 'ara': None, 'arc': None, 'aym': None, 'aze': None, 'bel': None, 'ben': None, 'ber': None, 
+'bis': None, 'bjz': None, 'bos': None, 'bul': None, 'bwg': None, 'cal': None, 'cat': None, 'ces': None, 'cha': None, 
+'ckb': None, 'cnr': None, 'crs': None, 'dan': None, 'de': None, 'deu': None, 'div': None, 'dzo': None, 'ell': None, 
+'eng': 'English', 'est': None, 'eus': None, 'fao': None, 'fas': None, 'fij': None, 'fil': None, 'fin': None, 
+'fra': None, 'gil': None, 'glc': None, 'gle': None, 'glv': None, 'grn': None, 'gsw': None, 'hat': None, 
+'heb': None, 'her': None, 'hgm': None, 'hif': None, 'hin': None, 'hmo': None, 'hrv': None, 'hun': None, 
+'hye': None, 'ind': None, 'isl': None, 'ita': None, 'jam': None, 'jpn': None, 'kal': None, 'kat': None, 
+'kaz': None, 'kck': None, 'khi': None, 'khm': None, 'kin': None, 'kir': None, 'kon': None, 'kor': None, 'kwn': None, 
+'lao': None, 'lat': None, 'lav': None, 'lin': None, 'lit': None, 'loz': None, 'ltz': None, 'lua': None, 'mah': None, 
+'mey': None, 'mfe': None, 'mkd': None, 'mlg': None, 'mlt': None, 'mon': None, 'mri': None, 'msa': None, 'mya': None, 
+'nau': None, 'nbl': None, 'ndc': None, 'nde': None, 'ndo': None, 'nep': None, 'nfr': None, 'niu': None, 'nld': None, 
+'nno': None, 'nob': None, 'nor': None, 'nrf': None, 'nso': None, 'nya': None, 'nzs': None, 'pap': None, 'pau': None, 
+'pih': None, 'pol': None, 'por': None, 'pov': None, 'prs': None, 'pus': None, 'que': None, 'rar': None, 'roh': None, 
+'ron': None, 'run': None, 'rus': None, 'sag': None, 'sin': None, 'slk': None, 'slv': None, 'smi': None, 'smo': None, 
+'sna': None, 'som': None, 'sot': None, 'spa': None, 'sqi': None, 'srp': None, 'ssw': None, 'swa': None, 'swe': None, 
+'tam': None, 'tet': None, 'tgk': None, 'tha': None, 'tir': None, 'tkl': None, 'toi': None, 'ton': None, 'tpi': None, 
+'tsn': None, 'tso': None, 'tuk': None, 'tur': None, 'tvl': None, 'ukr': None, 'urd': None, 'uzb': None, 'ven': None, 
+'vie': None, 'xho': None, 'zdj': None, 'zho': None, 'zib': None, 'zul': None}
