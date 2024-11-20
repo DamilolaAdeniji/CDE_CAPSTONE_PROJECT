@@ -7,6 +7,15 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore logs directory
+logs/
+
+# Ignore plugins directory
+plugins/
+
+
+
+
 # Distribution / packaging
 .Python
 build/
