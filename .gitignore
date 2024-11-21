@@ -13,7 +13,9 @@ logs/
 # Ignore plugins directory
 plugins/
 
+terraform.tfstate.backup
 
+.terraform/
 
 
 # Distribution / packaging
