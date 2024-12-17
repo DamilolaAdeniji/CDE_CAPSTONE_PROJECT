@@ -1,3 +1,5 @@
+snowflake.py
+
 *.csv
 *.parquet
 # Byte-compiled / optimized / DLL files
