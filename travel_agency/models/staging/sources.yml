@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: staging_countries
+    database: cde_db
+    schema: stage
+    tables: 
+      - name: raw_countries
+        columns:
+          - name: country_name
+            tests:
+              - unique
+              - not null

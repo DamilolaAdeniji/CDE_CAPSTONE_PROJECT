@@ -1,4 +1,5 @@
 *.csv
+*.parquet
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -145,3 +146,41 @@ __blobstorage__
 __queuestorage__
 __azurite_db*__.json
 .python_packages
+
+
+
+# dbt target and logs directories
+target/
+dbt_packages/
+logs/
+
+# dbt debug output
+dbt_debug.log
+
+# Python virtual environment (if using one)
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# MacOS system files
+.DS_Store
+
+# Secrets and credentials
+profiles.yml
+secrets.env
+*.key
+*.crt
+*.pem
+
+# Editor and IDE files
+*.vscode/
+.idea/
+*.iml
+
+# Local files and temporary outputs
+*.db
+*.log
+*.csv
+*.xlsx
+*.tmp
