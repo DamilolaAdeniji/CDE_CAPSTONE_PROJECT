@@ -1,5 +1,5 @@
 from airflow import DAG
-#from airflow.operators.bash_operator import BashOperator
+from airflow.operators.bash_operator import BashOperator
 from airflow.operators.python_operator import PythonOperator
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
@@ -61,4 +61,9 @@ with DAG(
         python_callable = load_data_to_dwh
     )
 
-extract_from_api_to_s3 >> transform_raw_data >> load_tranformed_data
+    execute_dbt_script = BashOperator(
+        task_id='run_dbt',
+        bash_command='travel_agency/bash_files/dbt.sh'
+    )
+
+extract_from_api_to_s3 >> transform_raw_data >> load_tranformed_data >> execute_dbt_script
