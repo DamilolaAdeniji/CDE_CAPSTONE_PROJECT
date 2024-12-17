@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from dotenv import load_dotenv
 import os
 from dotenv import load_dotenv
-from utils import data_worker,s3_functions
+from utils import data_worker,s3_functions,snowflake
 load_dotenv()
 
 
@@ -36,7 +36,8 @@ def transform_raw_data():
     s3_functions.export_df_to_s3(df=df,destination=s3_storage + stage_destination)
 
 def load_data_to_dwh():
-    pass
+    with open('travel_agency/sql_files/inital_load.sql', mode= 'r') as f:
+        snowflake.execute_query(f)
 
 with DAG(
     dag_id='travel_agency_dag',
@@ -50,10 +51,14 @@ with DAG(
         python_callable = extract_from_api_to_s3
     )
 
-
     transform_raw_data = PythonOperator(
         task_id = "transform_raw_data",
         python_callable = transform_raw_data
     )
 
-extract_from_api_to_s3 >> transform_raw_data
+    load_tranformed_data = PythonOperator(
+        task_id = "load_data_to_dwh",
+        python_callable = load_data_to_dwh
+    )
+
+extract_from_api_to_s3 >> transform_raw_data >> load_tranformed_data
